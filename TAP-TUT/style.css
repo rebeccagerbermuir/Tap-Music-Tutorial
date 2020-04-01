@@ -3,9 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
-    font-family: 'Montserrat', sans-serif;
-}
+
 .app {
     height: 100vh;
     display: flex;
@@ -13,77 +11,95 @@ body {
     justify-content: space-between;
     align-items: center;
 }
-
+body {
+    background: linear-gradient(#87f0e2,#8e87f0,#eeeeee,#eeeeee,#eeeeee);
+}
 header h1 {
-    margin: 50px 0px 30px 0px;
+    margin: -10px 0px 3px 0px;
+    font-family: 'Fredoka One', regular;
     text-align: center;
-    font-size: 40px;
+    font-size: 200px;
+    color: #000000b6;
 }
 
 header p {
-    font-size: 20px;
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 15px;
+    color: #000000b6;
+    
 
+
+
+}
+header h2 {
+    margin: -25px 0px 50px 0px;
+    font-family: 'Fredoka One', regular;
+    text-align: center;
+     font-size: 150px;
+     color: #000000b6;
 }
 
 .pads{
-    background: lightblue;
+
     width: 100%;  
     display: flex;
+    cursor: pointer;
 }
 .pads > div{
-    height: 100px;
+    height: 500px;
     width: 100px;
     flex: 1;
+    border-radius: 25px;
 }
 
 .pad1{
-    background: #1000f7;
+    background: radial-gradient(#1000f7,#1000f7,#1000f775);
 }
 .pad2{
-    background: #f1cfe7;
+    background: radial-gradient(#f1cfe7,#f1cfe7,#f1cfe791);
 }
 .pad3{
-    background: #fffb09;
+    background: radial-gradient(#fffb09,#fffb09,#fffb0948);
 }
 .pad4{
-    background: #547cff;
+    background: radial-gradient(#547cff,#547cff,#547cff60);
 }
 .pad5{
-    background: #ff3c00;
+    background: radial-gradient(#ff3c00,#ff3c00,#ff3c004f);
 }
 .pad6{
-    background: #daeba8;
+    background: radial-gradient(#daeba8,#daeba8,#daeba886);
 }
 
 .visual > div{
+
+    
     position : absolute;
     height: 50px;
     width: 50px;
     border-radius: 50%;
-    bottom: 0%;
-    left: 20%;
-    bottom: 0%;
+    bottom: 0px;
+    left: 20%; 
     z-index: -1;
+
 }
 @keyframes jump{
     0%{
-        bottom: 0%;
-        left: 20%;
+        bottom: 20%;
+        left: null;
+
+
     }
     50%{
-        bottom: 50%;
-        left: 50%;
+        bottom: 90%;
+        left: null;
+
     }
     100%{
-        bottom: 0%;
-        left: 80%;
+        bottom: 20%;
+        left: null;
+
     }
 }
 
-.visual > div{
-    position: absolute;
-    height: 50px;
-    width: 50px;
-    border-radius: 50%; 
-    bottom: 0%;
-}
