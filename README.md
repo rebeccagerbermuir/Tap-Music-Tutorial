@@ -1,6 +1,8 @@
 # Tap-Music-Tutorial
-Following Build A Music App With Javascript Tutorial by Dev Ed on youtube.
+Following Build A Music App With Javascript Tutorial by Dev Ed on youtube,
 
-https://github.com/developedbyed/vanilla-js-beatmaker
+then I will modify its appearance just for fun.
 
-https://youtu.be/2VJlzeEVL8A
+link: https://github.com/developedbyed/vanilla-js-beatmaker
+
+tutorial: https://youtu.be/2VJlzeEVL8A
